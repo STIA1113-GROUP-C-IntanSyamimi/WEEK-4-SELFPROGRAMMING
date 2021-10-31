@@ -1,0 +1,20 @@
+package selfProgramming;
+
+public class MathClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	   int b =32;
+	   int a =2;
+	   int c =4;
+       double calculation;
+       double calculation2;
+    
+       calculation = (-b+ Math.sqrt(b*b-4*a*c))/(2*a);
+       System.out.println("The value of calculation is "+ calculation);
+       
+       calculation2= Math.pow(b,3);
+       System.out.println("The value of second calculation is "+ calculation2);
+	}
+
+}
