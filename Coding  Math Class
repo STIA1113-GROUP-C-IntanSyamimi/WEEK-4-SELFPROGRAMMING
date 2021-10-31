@@ -10,6 +10,7 @@ public class MathClass {
        double calculation;
        double calculation2;
     
+    
        calculation = (-b+ Math.sqrt(b*b-4*a*c))/(2*a);
        System.out.println("The value of calculation is "+ calculation);
        
