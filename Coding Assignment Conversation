@@ -1,0 +1,15 @@
+package selfProgramming;
+
+public class AssignmentConversation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int dollars;
+        dollars = 45;
+        double money = dollars;
+        
+        System.out.println("The price for dinner tonight is " +money + "$");
+    
+	}
+
+}
