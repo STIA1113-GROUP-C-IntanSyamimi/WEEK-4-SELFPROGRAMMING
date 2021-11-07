@@ -1,0 +1,47 @@
+package selfProgramming;
+
+public class Math {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	   int b =26;
+	   int a =4;
+	   int c =2;
+       double calculation;
+       double calculation2;
+       int z =50;
+       float y;
+    
+       calculation = (-b+ Math.sqrt(b*b-4*a*c))/(2*a);
+       System.out.printf("The value of calculation is %.2f ", calculation);
+       System.out.println();
+       
+       y=  (float) z/6;
+       System.out.println( "The value for y is "+ y);
+       
+       calculation2= Math.pow(b,3);
+       System.out.printf("The value of second calculation is %.2f ", calculation2);
+       System.out.println();
+      
+       double d= b*b;
+       double e= 4*a*c;
+       double f= d-e;
+       double ff= Math.sqrt(f);
+       double g= -b + ff;
+       double h= 2*a;
+       double hh= g/h;
+       
+       System.out.println("d is : "+d);
+       System.out.println("e is : "+e);
+       System.out.println("f is : "+f);
+       System.out.println("ff is : "+ff);
+       System.out.println("g is : "+g);
+       System.out.println("h is : "+h);
+       System.out.println("hh is : "+hh);
+       
+       
+       
+	}
+	
+
+}
