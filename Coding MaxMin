@@ -1,0 +1,27 @@
+package selfProgramming;
+import java.util.Scanner;
+public class MaxMin {
+
+	       public static void main(String[] args) {
+				// TODO Auto-generated method stub
+			   java.util.Scanner sc = new Scanner(System.in);
+			   
+		       System.out.println("Enter integer number");
+		       int integernum= sc.nextInt();
+		       System.out.println("The value of integer number is "+ integernum);
+		       
+		       
+		       System.out.println("Enter double number");
+		       double doublenum= sc.nextDouble();
+		       System.out.println("The value of double number is "+ doublenum);
+		       
+		       double max= Math.max(integernum,doublenum);
+		       double min= Math.min(integernum,doublenum);
+		       
+		       System.out.println("The maximum number between integer number and double number is ");
+		       System.out.println(max);
+		       System.out.println("The minimum number between integer number and double number is ");
+		       System.out.println(min);
+		       
+			}
+	}
