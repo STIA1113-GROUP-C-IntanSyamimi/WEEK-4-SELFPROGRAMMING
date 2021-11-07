@@ -1,0 +1,36 @@
+package scannerMe;
+import java.util.Scanner;
+public class name {
+
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+   
+    
+    Scanner sc= new Scanner(System.in);
+    
+    System.out.println("Please enter your surname");
+    String surname= sc.nextLine();
+    System.out.println("My name is " +surname);
+    
+    
+    System.out.println("Please enter your name");
+    String name= sc.next();
+    System.out.println("My name is " +name);
+    
+    System.out.println("Please enter integer number");
+    int integernum= sc.nextInt();
+    
+    double integer=(double) integernum;
+    System.out.println("The integer number is "+integer);
+    
+    System.out.println("Please enter double number");
+    double doublenum= sc.nextDouble();
+    System.out.println("The double number is "+doublenum);
+    
+    double ave=(integer+doublenum)/2;
+    System.out.printf("The average value is %.2f ",ave);
+    
+    
+	}
+
+}
