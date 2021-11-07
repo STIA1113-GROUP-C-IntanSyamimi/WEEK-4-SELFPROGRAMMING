@@ -1,0 +1,10 @@
+Enter integer number
+35
+The value of integer number is 35
+Enter double number
+97.9
+The value of double number is 97.9
+The maximum number between integer number and double number is 
+97.9
+The minimum number between integer number and double number is 
+35.0
